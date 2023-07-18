@@ -28,4 +28,38 @@
 }
 .banner-text p{
     margin-top: 0px;
+    display: flex;
+}
+.btn{ 
+    border: 1px solid skyblue;
+    border-radius: 10px;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.banner-title{
+    display: flex;
+    justify-content: space-around;
+}
+.contant-title{
+    display: flex;
+}
+.content{
+
+}
+.title-1{
+    font-size: 30px;
+    color: purple;
+}
+.content p{
+    font-size: 10px;
+   max-width: 140px;
+    height: 70px;
+}
+.card-title{
+    text-align: center;
+}
+.card{
+    
 }
