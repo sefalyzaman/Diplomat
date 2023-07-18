@@ -1,0 +1,31 @@
+.title{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.title img{
+    width: 40px;
+    height: 25px;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 15px;
+}
+.menu li{
+    list-style: none;
+    font-size: 10px;
+}
+/* banner part start */
+.banner-text h1{
+    font-size: 50px;
+    padding: 0px;
+    margin-top: 0px;
+}
+.banner-text p{
+    margin-top: 0px;
+}
