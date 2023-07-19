@@ -1,65 +1,220 @@
-.title{
+* {
+    font-family: Work Sans;
+}
+
+.title {
     display: flex;
     gap: 5px;
     align-items: center;
 }
-.title img{
+
+.span {
+    color: orangered;
+}
+
+.title img {
     width: 40px;
     height: 25px;
-   
+
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-}
-.menu{
-    display: flex;
-    gap: 15px;
-}
-.menu li{
-    list-style: none;
-    font-size: 10px;
-}
-/* banner part start */
-.banner-text h1{
-    font-size: 50px;
-    padding: 0px;
-    margin-top: 0px;
-}
-.banner-text p{
-    margin-top: 0px;
-    display: flex;
-}
-.btn{ 
-    border: 1px solid skyblue;
-    border-radius: 10px;
-}
-img{
-    width: 400px;
-    height: 300px;
-}
-.banner-title{
+
+.navbar {
     display: flex;
     justify-content: space-around;
 }
-.contant-title{
+
+.menu {
     display: flex;
+    gap: 15px;
 }
-.content{
+
+.menu li {
+    list-style: none;
+    font-size: 10px;
+}
+
+/* banner part start */
+.banner-text h3 {
+    color: #0B0223;
+    text-align: start;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+
+
 
 }
-.title-1{
-    font-size: 30px;
-    color: purple;
+
+.banner-text h1 {
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px auto;
+    color: rgba(249, 72, 178, 1);
 }
-.content p{
+
+.banner-text p {
     font-size: 10px;
-   max-width: 140px;
-    height: 70px;
+
 }
-.card-title{
+
+.btn-1 {
+    color: #FFF;
+    padding: 5px 7px;
+    border-radius: 28px;
+    background-color: #FF42A5;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: 1px solid #FF42A5;
+}
+
+.btn-2 {
+    color: #FFF;
+    padding: 5px 7px;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 28px;
+    background-color: #4EC5F7;
+    border: 1px solid #4EC5F7;
+
+}
+
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.banner-title {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+}
+
+.contant-title {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 10px auto;
+}
+
+.content {
+    text-align: right;
+
+
+
+}
+
+.title-1 {
+    font-size: 30px;
+    color: rgba(249, 72, 178, 1);
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.content p {
+    font-size: 10px;
+    text-align: right;
+    padding-left: 30px;
+
+}
+
+.btn-3 {
+    text-align: right;
+    color: #FFF;
+    padding: 5px 7px;
+    border-radius: 28px;
+    background-color: #FF42A5;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: 1px solid #FF42A5;
+
+}
+
+h6 {
+    margin: 6px 0 0 0;
+    font-size: 9px;
+}
+
+.content-1 {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2px;
+
+}
+
+/* third section  */
+.span-2 {
+    color: rgba(249, 72, 178, 1);
+
+
+}
+
+.card-title {
     text-align: center;
 }
-.card{
+
+.card-title p {
+    font-size: 12px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 14px;
+    gap: 10px;
+}
+
+.card p {
+    font-size: 10px;
+    padding: 0 40px;
+    text-align: left;
+}
+
+.card img:hover {
+    border: 3px solid red;
+    border-radius: 18px;
+}
+
+.card-3 {
+    background-image: url("images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 190px;
+    background-position: cover;
+}
+.card-3 img{
+    position: relative;
+    display: inline-block;
+
+}
+.card-3 figure {
+    position: absolute;
+    bottom: 10px ;
+    left: 10 px;
     
+    color:red;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+.para{
+    bottom: 1000px;
+}
+
+.card img {
+    width: 190px;
+    height: 190px;
 }
