@@ -164,6 +164,7 @@ h6 {
 
 .card-title {
     text-align: center;
+    margin: 20px 0px;
 }
 
 .card-title p {
@@ -188,33 +189,147 @@ h6 {
     border-radius: 18px;
 }
 
-.card-3 {
+/* .card-3 {
     background-image: url("images/Rectangle\ 7.png");
     background-repeat: no-repeat;
     background-size: 200px;
     height: 190px;
     background-position: cover;
-}
-.card-3 img{
+} */
+
+.card-3 {
     position: relative;
     display: inline-block;
 
 }
+.card-3 img {
+    position: relative;
+    display: block;
+
+}
+
 .card-3 figure {
+    background-color: whitesmoke;
     position: absolute;
-    bottom: 10px ;
-    left: 10 px;
+    bottom: 110px;
+  
+
+    color: red;
     
-    color:red;
-    width: 100%;
     padding: 10px;
-    font-size: 14px;
-  }
-.para{
+    font-size: 12px;
+}
+
+.para {
     bottom: 1000px;
 }
 
 .card img {
     width: 190px;
     height: 190px;
+}
+
+/* third section start */
+.section-4{
+    margin: 20px 0;
+}
+.content-box {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+   
+}
+
+.span-3 {
+    color: #FF42A5;
+
+
+}
+
+.text {
+    text-align: right;
+    width: 40%;
+    margin: auto;
+}
+
+.text h3 {
+    font-size: 20px;
+    text-align: right;
+    padding: 0 50px;
+}
+
+.text p {
+    font-size: 10px;
+    text-align: right;
+    padding: 0 50px 0 120px;
+
+
+}
+
+
+
+.img-1 {
+    width: 200px;
+    height: 220px;
+    border-radius: 8px;
+    background: lightgray;
+    position: relative ;
+
+
+}
+
+.img-2 {
+    width: 130px;
+    height: 140px;
+    position: absolute;
+    left: 600px;
+    bottom: -5px;
+
+
+}
+
+/* fourth section */
+.logo {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-size: 10px;
+    text-align: center;
+    gap: 20px;
+   
+}
+.logo .icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon:hover{
+    border: 1px solid red;
+    border-radius: 8px;
+}
+.logo img{
+    width: 40px;
+    height: 30px;
+    /* margin: 5px auto;
+    padding: 20px; */
+}
+.logo p{
+    font-size: 10px;
+    text-align: center;
+}
+/* footer section */
+.end{
+    background-color: black;
+    color: #FFF;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+   
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.footer img{
+    width: 40px;
+    height: 25px;
 }
