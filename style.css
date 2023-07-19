@@ -11,7 +11,8 @@
 .span {
     color: orangered;
 }
-.follow{
+
+.follow {
     background-color: gray;
     padding: 5px 7px;
 }
@@ -206,6 +207,7 @@ h6 {
     display: inline-block;
 
 }
+
 .card-3 img {
     position: relative;
     display: block;
@@ -216,10 +218,10 @@ h6 {
     background-color: whitesmoke;
     position: absolute;
     bottom: 110px;
-  
+
 
     color: red;
-    
+
     padding: 10px;
     font-size: 12px;
 }
@@ -234,14 +236,15 @@ h6 {
 }
 
 /* third section start */
-.section-4{
+.section-4 {
     margin: 20px 0;
 }
+
 .content-box {
     display: flex;
     position: relative;
     justify-content: space-around;
-   
+
 }
 
 .span-3 {
@@ -277,7 +280,7 @@ h6 {
     height: 220px;
     border-radius: 8px;
     background: lightgray;
-    position: relative ;
+    position: relative;
 
 
 }
@@ -295,73 +298,85 @@ h6 {
 /* fourth section */
 .logo {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     font-size: 10px;
     text-align: center;
     gap: 20px;
-   
+
 }
-.logo .icon{
+
+.logo .icon {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.icon:hover{
+
+.icon:hover {
     border: 1px solid red;
     border-radius: 8px;
 }
-.logo img{
+
+.logo img {
     width: 40px;
     height: 30px;
     /* margin: 5px auto;
     padding: 20px; */
 }
-.logo p{
+
+.logo p {
     font-size: 10px;
     text-align: center;
 }
+
 /* footer section */
-.end{
+.end {
     background-color: black;
     color: #FFF;
     margin-top: 20px;
 }
-.footer{
+
+.footer {
     display: flex;
-   
-   justify-content: center;
-   align-items: center;
-   gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-.footer img{
+
+.footer img {
     width: 40px;
     height: 25px;
 }
-.footer-menu{
+
+.footer-menu {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     list-style: none;
-  
+
     gap: 10px;
 }
-.font-icon{
+
+.font-icon {
     text-align: center;
     padding-right: 15px;
 }
-.font-icon a{
- 
+
+.font-icon a {
+
     padding-left: 20px;
 }
-.footer-terms{
+
+.footer-terms {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     list-style: none;
-    
+
     gap: 10px;
     font-size: 8px;
     padding-right: 15px;
 }
-.copy-right{
+
+.copy-right {
     padding-bottom: 50px;
     font-size: 8px;
     text-align: center;
@@ -370,7 +385,108 @@ h6 {
 
 
 /* responsive for mobile device */
-@media screen and(max-width: 576px){
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title {
+
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+
+    }
+
+    .follow {
+        padding: 5px 2px;
+    }
+
+    .banner-title {
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner-text h3, .content, .title-1, .card-3 {
+     
+        text-align: center;
+      }
+    .contant-title{
+        flex-direction: column;
+    }
+
+
+    .card, .content-box {
+        flex-direction: column;
+
+    }
+    .text {
+        text-align:center;
+        width: 80%;
+        margin: auto;
+    }
+    .text h3 {
+       text-align: center;
+    }
     
+    .text p {
+       
+        text-align: center;
+        padding-left:25px ;
+    }
+    .image{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .img-1 {
+        margin: 0 auto;
+        width: 200px;
+        height: 220px;
+        border-radius: 8px;
+        background: lightgray;
+        position: relative;
+    
+    
+    }
+    .img-2 {
+        width: 130px;
+        height: 140px;
+        position: absolute;
+        left: 10px;
+        bottom: -8px;
+    }
+    .logo {
+        
+        grid-template-columns: repeat(3, 1fr);
+      width: 80%;
+      margin: 0 auto;
+    
+    }
+    .logo img {
+        width: 20px;
+        height: 15px;
+      
+    }
+    .footer-menu{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-menu li{
+        font-size: 12px;
+        
+    }
+    
+    
+
+
+
 }
 
+/* responsive for tablet device */
+@media screen and(max-width: 992) {}
