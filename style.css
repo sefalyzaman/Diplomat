@@ -11,6 +11,10 @@
 .span {
     color: orangered;
 }
+.follow{
+    background-color: gray;
+    padding: 5px 7px;
+}
 
 .title img {
     width: 40px;
@@ -333,3 +337,40 @@ h6 {
     width: 40px;
     height: 25px;
 }
+.footer-menu{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+  
+    gap: 10px;
+}
+.font-icon{
+    text-align: center;
+    padding-right: 15px;
+}
+.font-icon a{
+ 
+    padding-left: 20px;
+}
+.footer-terms{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    
+    gap: 10px;
+    font-size: 8px;
+    padding-right: 15px;
+}
+.copy-right{
+    padding-bottom: 50px;
+    font-size: 8px;
+    text-align: center;
+
+}
+
+
+/* responsive for mobile device */
+@media screen and(max-width: 576px){
+    
+}
+
